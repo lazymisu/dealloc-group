@@ -1,0 +1,23 @@
+# Site settings
+title: dealloc-group
+logo: /assets/img/logo.png
+description: Programming blog.
+
+collections:
+  articles:
+    output: true
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
